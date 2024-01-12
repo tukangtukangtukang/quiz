@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Profil Saya</h1>
+    <img src="https://picsum.photos/300/300" alt="">
+    <p>Selamat datang di halaman profil saya. Saya adalah seorang web developer yang sedang belajar dan berkembang.</p>
+    <h1>Pendidikan</h1>
+    <table>
+        <tr>
+            <th>Tingkat</th>
+            <th>Instansi</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td>S1</td>
+            <td>Universitas XYZ</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>SMA</td>
+            <td>SMAN 123</td>
+            <td>IPA</td>
+        </tr>
+    </table>
+    <h1>Portofolio</h1>
+    <ol>
+        <li>Website Perusahaan ABC</li>
+        <li>Aplikasi Mobile XYZ</li>
+    </ol>
+    <p><a href="/">Lihat detail portofolio</a></p>
+    <h1>Kontak</h1>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" cols=""></textarea><br>
+        <label for="kategori">Kategori:</label>
+        <select name="kategori" id="kategori">
+            <option value="umum">Umum</option>
+        </select>
+    </form>
+    <p>Pilih Jenis Kelamin:</p>
+    <form>
+        <label for="pria">Laki-Laki</label>
+        <input type="radio" id="pria" name="jenis_kelamin" value="pria"><br>
+        <label for="perempuan">Perempuan</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+    </form>
+    <p>Pilih Bahasa Pemrograman:</p>
+    <form>
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="bahasa_pemrograman[]" value="java">
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" name="bahasa_pemrograman[]" value="python">
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="javascript" name="bahasa_pemrograman[]" value="javascript">
+    </form>
+    <button>Kirim Pesan</button>
+    <footer>
+        <hr>
+        <p>&copy; 2024 Profil Saya | <a
+                href="https://www.linkedin.com/in/bonaventura-isaac-guric-8aa042190/">LinkedIn</a></p>
+        <hr>
+    </footer>
+</body>
+
+</html>
